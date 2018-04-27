@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.adriencamara.webservice.MainActivity">
+
+    <TextView
+        android:id="@+id/activity_main_greeting_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#01B0F0"
+        android:padding="20dp"
+        android:text="ESTM"/>
+    <EditText
+        android:id="@+id/etprenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Veuillez entrer votre prenom"/>
+    <EditText
+        android:id="@+id/etnom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Veuillez entrer votre nom"/>
+    <EditText
+        android:id="@+id/etclasse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Veuillez entrer votre classe"/>
+
+        <Button
+            android:id="@+id/lister"
+            android:layout_width="match_parent"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#01B0F0"
+            android:text="Lister" />
+
+    <Button
+        android:id="@+id/inscrire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#01B0F0"
+        android:text="Inscrire" />
+
+
+
+
+</LinearLayout>
